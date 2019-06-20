@@ -43,13 +43,13 @@
 		<!-- 注入realm -->
 		<property name="realm" ref="myShiroRealm"/>
 		<!-- 注入缓存管理器 -->
-		<property name="cacheManager" ref="cacheManager"/>
+<!--		<property name="cacheManager" ref="cacheManager"/>-->
 	</bean>
 
 	<!-- 缓存管理器 -->
-	<bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
-		<property name="cacheManagerConfigFile" value="classpath:cache/ehcache.xml"/>
-	</bean>
+<!--	<bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">-->
+<!--		<property name="cacheManagerConfigFile" value="classpath:cache/ehcache.xml"/>-->
+<!--	</bean>-->
 
 
 	<!--声明一个Service 注入到自定义Realm-->
